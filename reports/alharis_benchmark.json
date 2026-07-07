@@ -1,0 +1,28 @@
+{
+  "input": "C:\\Projects\\alharis_alsahabi\\data\\benchmarks\\alharis_nvd_sre_events.jsonl",
+  "processed": 12000,
+  "errors": 0,
+  "metrics": {
+    "precision": 1.0,
+    "recall": 1.0,
+    "f1": 1.0,
+    "tp": 5375,
+    "tn": 6625,
+    "fp": 0,
+    "fn": 0
+  },
+  "latency_ms": {
+    "mean": 0.016127766687228966,
+    "p99": 0.03470000228844583,
+    "max": 0.18749997252598405
+  },
+  "memory_mb": {
+    "current": 0.402059,
+    "peak": 0.402606
+  },
+  "elapsed_seconds": 0.21694640000350773,
+  "collapse_check": {
+    "passed": true,
+    "criteria": "errors == 0"
+  }
+}
